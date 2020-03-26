@@ -1,6 +1,5 @@
-# Learning Python
-
-Following examples from **Learning Python, 5th Ed.** By **Mark Lutz** 
+# Python Sandbox
+Learning Python fundamentals and playground for programming features and third-party libraries through testing
 
 ## Installation
 1. Install python `$ brew install python3`
@@ -8,7 +7,7 @@ Following examples from **Learning Python, 5th Ed.** By **Mark Lutz**
 3. Activate the environment: `$ pipenv shell`
 4. Install dependencies from `Pipfile`: `$ pipenv install --dev`
 
-## Installing Additional Packages
+### Installing additional packages
 ```
 $ pipenv install <package>
 ```
@@ -22,7 +21,7 @@ See [here](https://pipenv.readthedocs.io/en/latest/install/#installing-packages-
 $ pytest -v --cov-report term-missing --cov=. --cov-fail-under=100
 ```
 
-## Code Formatting
+## Code formatting
 ```
 $ yapf --style=google -i *.py
 ```

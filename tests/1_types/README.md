@@ -1,4 +1,4 @@
-# Introduction. Types and Operations
+# Overview. Types and Operations
 - Numbers
 - Strings
 - Lists
