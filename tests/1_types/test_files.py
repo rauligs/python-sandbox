@@ -22,7 +22,7 @@ class TestFiles:
         # Files provide an iterator that automatically reads line by line in for loops
         # and other contexts (this way to test is just to show verify the example, don't test
         # this way for real! not in a loop or conditionals):
-        for line in open('test_data_types_file.txt'):
+        for line in open(os.path.dirname(os.path.realpath(__file__)) + '/test_data_types_file.txt'):
             if idx_line == 1:
                 assert line == 'Hello\n'
                 idx_line += 1
